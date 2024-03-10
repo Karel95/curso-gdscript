@@ -1,0 +1,44 @@
+[gd_scene load_steps=10 format=3 uid="uid://n7f4e1i7bt0j"]
+
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_01.gd" id="1_maov8"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_02.gd" id="2_qq5hg"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_03.gd" id="3_n1dsr"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_04.gd" id="4_18six"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_05.gd" id="5_js126"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_06.gd" id="6_4qaxl"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/clase_07.gd" id="7_42yh7"]
+[ext_resource type="Texture2D" uid="uid://b1um4rq8rob33" path="res://icon.svg" id="8_vg5ot"]
+[ext_resource type="Script" path="res://Curso de GDScript y Godot/proyectil.gd" id="9_dvhxe"]
+
+[node name="Curso de GDScript" type="Node2D"]
+
+[node name="clase_01" type="Node2D" parent="."]
+script = ExtResource("1_maov8")
+
+[node name="clase_02" type="Node2D" parent="."]
+script = ExtResource("2_qq5hg")
+
+[node name="clase_03" type="Node2D" parent="."]
+script = ExtResource("3_n1dsr")
+
+[node name="clase_04" type="Node2D" parent="."]
+script = ExtResource("4_18six")
+
+[node name="texto" type="RichTextLabel" parent="clase_04"]
+offset_right = 48.0
+offset_bottom = 28.0
+text = "texto"
+
+[node name="clase_05" type="Node2D" parent="."]
+script = ExtResource("5_js126")
+
+[node name="clase_06" type="Node2D" parent="."]
+script = ExtResource("6_4qaxl")
+
+[node name="clase_07" type="Node2D" parent="."]
+script = ExtResource("7_42yh7")
+
+[node name="proyectil" type="Sprite2D" parent="."]
+position = Vector2(77, 104)
+texture = ExtResource("8_vg5ot")
+script = ExtResource("9_dvhxe")

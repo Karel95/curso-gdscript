@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://rjw1usjbjs1l"]
+
+[ext_resource type="Script" path="res://scripts/escena_01/script_01.gd" id="1_ao410"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Hola Mundo!" type="Label" parent="."]
+offset_left = 485.0
+offset_top = 280.0
+offset_right = 641.0
+offset_bottom = 352.0
+text = "Hola Mundo!!!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+script = ExtResource("1_ao410")
